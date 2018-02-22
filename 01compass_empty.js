@@ -8,18 +8,19 @@ oriented = function(e) {
             compassHeading = e.alpha;
         }
 
+                //north
          if(compassHeading > 315 || compassHeading < 45) {
                 text_area.textContent = "nothing";
         }
-
+                //east
         if(compassHeading >= 45 && compassHeading < 135) {
-                text_area.textContent = "nothing";
+                text_area.textContent = "bowl";
         }
-
+                //south
         if(compassHeading >= 135 && compassHeading < 225) {
                 text_area.textContent = "nothing ";
         }
-
+                //west
         if(compassHeading >= 225 && compassHeading < 315) {
                 text_area.textContent = "table";
         }
