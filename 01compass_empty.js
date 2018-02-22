@@ -10,8 +10,7 @@ oriented = function(e) {
 
                 //north
          if(compassHeading > 315 || compassHeading < 45) {
-                text_area.textContent = "nothing
-                                        nothing";
+                text_area.textContent = "nothing    nothing";
         }
                 //east
         if(compassHeading >= 45 && compassHeading < 135) {
